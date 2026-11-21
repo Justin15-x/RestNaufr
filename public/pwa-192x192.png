@@ -1,0 +1,42 @@
+import * as React from "react";
+const SvgPwa192X192 = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" {...props}>
+    <defs>
+      <linearGradient
+        id="pwa-192x192_svg__a"
+        x1="0%"
+        x2="100%"
+        y1="0%"
+        y2="100%"
+      >
+        <stop
+          offset="0%"
+          style={{
+            stopColor: "#0f172a",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset="100%"
+          style={{
+            stopColor: "#1e3a5f",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+    </defs>
+    <rect width={192} height={192} fill="url(#pwa-192x192_svg__a)" rx={38.4} />
+    <text
+      x={96}
+      y={130.56}
+      fill="#fff"
+      fontFamily="Arial, sans-serif"
+      fontSize={96}
+      fontWeight="bold"
+      textAnchor="middle"
+    >
+      {"\uD83C\uDF7D\uFE0F"}
+    </text>
+  </svg>
+);
+export default SvgPwa192X192;
